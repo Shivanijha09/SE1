@@ -1,0 +1,42 @@
+<html>
+<head> </head>
+<body>
+<h1>Dear student, welcome to js.</h1>
+<h2>Change Background color by clicking below the button.</h2>
+Enter some background color:
+<input type= "text" id="bgc" onChange="changeColors()">
+
+
+<!--<button onclick= "changeBg()"> change BG Color </button>--!>
+
+
+<h2>Change text color by clicking below the button</h2>
+Enter some text color:
+<input type= "text" id="tc" onChange="changeColors()">
+
+<!--<button onclick= "changeBgText()"> change BG Color for text </button>--!>
+<script> 
+
+function changeColors(){
+//1. get the value from user
+var bgColor= document.getElementById('bgc').value;
+var txtColor= document.getElementById('tc').value;
+//2.select the ele
+var ele = document.body;
+//3. apply changes
+if(bgColor=='red'){
+window.alert("dont enter red color");
+}
+else{
+ele.style.backgroundColor = bgColor;
+}
+if(txtColor=='red'){
+window.alert("dont enter red txt color");
+}
+else{
+ele.style.color = txtColor;
+}
+}
+</script>
+</body>
+</html>

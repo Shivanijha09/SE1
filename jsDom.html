@@ -1,0 +1,43 @@
+<html>
+<head> </head>
+<body>
+<h1>Dear student, welcome to js.</h1>
+<div id= "line2"><h1>i will change</h1></div>
+
+<h1>Dear student, welcome to js.</h1>
+<h2>Dear student, welcome to js.</h2>
+<h3 id= "xyz">Dear student, welcome to js.</h3>
+<button onclick = "abc()"> CLICK HERE </button>
+<button onclick = "pqr()"> CLICK 2 </button>
+<button onclick = "lmn()"> CLICK 3 </button>
+<script> 
+function abc(){
+//1 select the ele
+var ele = document.getElementById('line2');
+//2 apply changes
+ele.innerHTML="I am new data";
+}
+function pqr(){
+//1 select ele
+var ele = document.getElementById('line2');
+//2 apply changes
+ele.innerHTML="Hey!";
+ele.style.color = "red";
+}
+
+function lmn(){
+//1 select the ele
+var ele = document.getElementById('line2');
+//2 apply changes
+ele.innerHTML="<ul>"+"<li>"+"ONE"+"</li>"+"<li>"+"TWO"+"</li>"+"<li>"+"THREE"+"</li>"+"</ul>";
+}
+
+</script>
+</body>
+</html>
+
+
+
+
+
+

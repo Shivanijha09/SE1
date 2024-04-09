@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>
+
+
+</title>
+<body> 
+
+
+<h1>Introduction to forms...</h1>
+<script>
+var pwd = document.form['f1']['pswd'].value;
+if pwd.lenghth<8{
+//document.getElementById('errMsg').ineerHTML ="Password must contains minimum 8 characters");
+alert("")
+
+   }
+}
+
+
+function validateForm()
+
+var user= document.getElementById('person').value;
+var pwd = document.forms['f1']['pswd'].value;
+/*if (user=="" || user==null){
+window.alert('person name must be filled");
+return false;
+}
+
+if( pwd== "" || pwd==null){
+window.alert("password can not be empty");
+return false;
+
+}
+
+if( user=="" || user==null || pwd== "" || pwd==null){
+window.alert("person name and password must be filled");
+return false;
+}
+
+if( pwd.length<8){
+//window.alert("password MUST contain 8 characters");
+document.getElementById('errmsg').innerHTML ="password MUST contain 8 characters";
+document.getElementById().style.color="red";
+
+return false;
+
+}
+
+var pwd =  document.forms['f1']['pswd'].value;
+   //alert(pwd.indexOf('r'));
+   //  @ $  # _
+  if(pwd.length<8) {
+ // document.getElementById('errMsg').innerHTML="Password must contain minimum 8 characters"; 
+    alert("Password must contain minimum 8 characters");        
+   return false;
+       }
+     if(pwd.indexOf('@')==-1 &&pwd.indexOf('#')==-1&&pwd.indexOf('$')==-1&&pwd.indexOf('_')==-1){
+ alert("Password must contain SPECIAL characters");        
+   return false;
+        }
+if(pwd.indexOf('0')==-1 &&pwd.indexOf('1')==-1&&pwd.indexOf('2')==-1&&pwd.indexOf('3')==-1){
+ alert("Password must contain ONE DIGIT characters");        
+   return false;
+        }
+
+
+</script>
+
+<p>this is paragraph. this is paragraph. this is paragraph. this is paragraph. this is paragraph. this is paragraph. this is paragraph. this is paragraph. this is paragraph. this is paragraph.</p>
+
+<form action="JSWork1.html" onsubmit="return validateForm()">
+Name: <input type="text" name="name" id="person" placeholder="Enter your Name"><br></br>
+Place: <input type="text" name="place" placeholder="Enter your place">
+Mobile: <input type="text" name="phonenum" placeholder="Enter your phone number">
+Password: <input type="pwd" name="pwd" placeholder="Enter your password "><br></br>
+
+<input type="reset" value ="CLEAR">				
+<input type="submit" value ="register" onClick="checkingInputs()">						
+</form>
+<h3 id="errMsg"></h3>
+</body>
+</html>

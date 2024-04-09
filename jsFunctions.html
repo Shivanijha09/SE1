@@ -1,0 +1,43 @@
+<html>
+<head> </head>
+<body>
+<h1>Dear student, welcome to js.</h1>
+<script>
+function message(){
+console.log("Welcome to Functions");
+}
+
+function greet(person){
+console.log("Dear "+ person);
+}
+
+function addIt(a,b){
+console.log("Addition is "+(a+b));
+}
+function addThem(a,b){
+var c= a+b;
+return c;
+}
+
+function info(){
+var m="this is function in JS";
+  return m;
+}
+
+  message();
+console.log("........");
+message();
+greet("Jayasimha");
+addIt(12,14);
+message("Ravi");
+var res= info();
+console.log(res);
+console.log(info());
+var addition =addThem(20,4);
+console.log(addition);
+</script>
+<h2>HowAre you</h2>
+<p onclick="message()"> hi Hello</P>
+<button onclick= "message()">click </button>
+</body>
+</html>

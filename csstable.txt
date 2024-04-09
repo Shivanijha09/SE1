@@ -1,0 +1,53 @@
+<title> Table in HTML </title>
+<style>
+     table{
+// background-color:pink;
+   boarder:2px solid blue;
+   height:60px;
+vertical-align:bottom;text-align:center;
+font-size:28px;
+   
+ 
+}
+</style>
+
+
+<html>
+
+<head>
+
+<title> tables in HTML </title>
+
+<style>
+table {
+
+background-color:pink;
+border: 1px solid black;
+width : 500px;
+boarder-collapse: collapse;
+
+}
+td { border:2px solid blue;
+height:60px;
+vertical-align:bottom;text
+</style>
+
+</head>
+
+<body>
+<h2> Adding a table to webpage </h2>
+
+
+<table >
+
+<caption> Horizontal Headings Table </caption>
+
+<tr> <th>Name </th> <th> Job</th> <th>Salary </th> </tr>
+<tr> <td>varshini </td> <td> engineer</td> <td>800000 </td> </tr>
+<tr> <td> harshi</td> <td> doctor</td> <td>700000 </td> </tr>
+<tr> <td> ashok</td> <td>teacher </td> <td>600000 </td> </tr>
+<tr> <td>nithya </td> <td>engineer </td> <td>4000000 </td> </tr>
+
+</table>
+</body>
+</html>

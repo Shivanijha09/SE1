@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<style>
+			/* Style the dropdown button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the dropdown button */
+.dropdown-btn {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown
+
+body {background-color: hotpink;}
+form {background-color: royalblue;
+	width: 600px;
+	margin-left: 200px;
+	padding: 100px;} 
+
+input[type="text"]
+input[type="number"]
+input[type="email"]
+input[type="date"]
+
+input {color: white; background-color:green;}
+
+fieldset {margin:40px 0px;
+ 	  border: 1px solid #ccc;
+  	  border-radius: 5px;
+  	  padding: 10px;
+  	  margin-bottom: 15px;
+	  height: auto;
+}
+
+legend {
+  	font-weight: bold;
+	color:white;
+	font-family=Arial;
+	text-align:left;
+
+		</style>
+	</head>
+		<body> 
+			<h1>Introduction to forms...</h1>
+
+				<form>
+					
+					<fieldset>
+    					<legend>BASIC INFORMATION</legend>
+    					<!-- Your form elements go here -->
+					
+					First Name: <input type="text" name="firstname"placeholder="Enter First Name">
+					<br>	
+					Last Name: <input type="text" name="lastname"placeholder="Enter Last Name">
+					<br>
+					Address #1: <input type="text" name="address1"placeholder="Enter Address">
+					<br>
+					Address #2: <input type="text" name="address2"placeholder="Enter Secondary Address">
+					<br>
+  					</fieldset>
+					
+
+
+
+
+
+					<fieldset>
+    					<legend>PERSONAL INFORMATION</legend>
+    					<!-- Your form elements go here -->
+					
+					First Name: <input type="text" name="firstname"placeholder="Enter First Name">
+					<br>	
+					Last Name: <input type="text" name="lastname"placeholder="Enter Last Name">
+					<br>
+					Phone Number (digits only please :P): <input type="number" name="phonenum" placeholder="Enter Phone Number">
+					<br>	
+					Email Address: <input type="text" name="email"placeholder="Enter Email Address">
+					<br>
+					Date Of Birth: <input type="date" name="DOB"placeholder="Enter Phone Number">
+					<br>
+					<div class="dropdown">
+  					<button class="dropdown-btn">--Select Degree--</button>
+  					<div class="dropdown-content">
+    					<a href="#">Bachelors</a>
+    					<a href="#">PhD</a>
+    					<a href="#">Masters</a>
+  					</div>
+					</div>
+					<br>
+					<input type="radio">
+					<br>
+					<input type="file">
+					<br>
+					<input type="reset">
+					<br>
+					<input type="submit">
+					<br>
+    					<label for="username">Username:</label>
+					<br>
+    					<input type="text" id="username" name="username">
+					<br>
+    					<!-- Additional form elements -->
+  					</fieldset>
+					
+  					
+				</form>
+
+
+		</body>
+
+</html>

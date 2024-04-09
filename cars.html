@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cars</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+    div.card {
+      display: inline-block;
+      background-color: whitesmoke;
+      width: 300px;
+      transition: background-color 3s;
+      padding: 50px;
+      margin: 10px 10px 10px 10px;
+
+    }
+
+    img.card-img-top {
+      height: 190px;
+      width: 300px;
+    }
+
+    div.card:nth-child(even) {
+      transform: translateX(600px) translateY(100px);
+    }
+
+    div.card:hover {
+      background-color: red;
+      
+      margin: 10px;
+    }
+
+    header {
+      background-color: #333;
+      color: yellow;
+      padding: 10px;
+      text-align: center;
+    }
+
+    header a {
+      color: red;
+      text-decoration: none;
+      padding: 10px;
+      margin: 0 10px;
+      transition: transform 2s;
+      display: inline-block;
+    }
+
+    header a:hover {
+      background-color: red;
+      transform: scale(1.3);
+      color: black;
+    }
+
+    body {
+      margin: 0;
+    }
+</style>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>My first website!</h1>
+  <a href="file:///C:/Users/shiva/OneDrive/Desktop/JAVAREACT/Frontend/HTML/movies.html">Movies</a>
+  <a href="file:///C:/Users/shiva/OneDrive/Desktop/JAVAREACT/Frontend/HTML/countries.html">Countries</a>
+  <a href="file:///C:/Users/shiva/OneDrive/Desktop/JAVAREACT/Frontend/HTML/cars.html">Cars</a>
+  <a href="file:///C:/Users/shiva/OneDrive/Desktop/JAVAREACT/Frontend/HTML/sports.html">Sports</a>
+</header>
+
+<div class="card w-25">
+  <img src="sf90.jpg" class="card-img-top">
+  <div class="card-body">
+    <h3 class="card-title">Ferrari SF-90 Stradale</h3>
+    <p class="card-text">A plug-in hybrid Italian car with 900 horsepower.</p>
+  </div>
+</div>
+
+<br><br>
+
+<div class="card w-25">
+  <img src="m5c.jpg" class="card-img-top">
+  <div class="card-body">
+    <h3 class="card-title">BMW M5 Competition</h3>
+    <p class="card-text">The fastest, most powerful BMW ever built.</p>
+  </div>
+</div>
+
+<br><br>
+
+<div class="card w-25">
+  <img src="modelS.jpg" class="card-img-top">
+  <div class="card-body">
+    <h3 class="card-title">Tesla Model S Plaid</h3>
+    <p class="card-text">The second quickest production car ever built, with over 1000 horsepower.</p>
+  </div>
+</div>
+
+<br><br>
+
+<div class="card w-25">
+  <img src="cbtruck.jpg" class="card-img-top">
+  <div class="card-body">
+    <h3 class="card-title">Tesla Cybertruck</h3>
+    <p class="card-text">More performance than a Sports Car and more utility than a pickup truck.</p>
+  </div>
+</div>
+
+</body>
+</html>

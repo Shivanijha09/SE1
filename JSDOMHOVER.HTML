@@ -1,0 +1,55 @@
+<html>
+<head> </head>
+<body>
+<h1>This is heading 1.</h1>
+<h2>This is heading 2.</h2>
+<h3>This is heading 3.</h3>
+<h4>This is heading 4.</h4>
+<h5>This is heading 5.</h5>
+<h6>This is heading 1.</h6>
+
+
+<script> 
+
+var n =[12, 14, 18, 20, 22,24];
+var n = ["Ajay", "Ravi", "Bhuvan", "Hari"];
+
+function alertBox(){
+window.alert("Hello !")
+
+}
+
+function confirmBox(){
+var ele;
+var ch = window.confirm("Hello This is confirm !");
+if (ch==true){
+console.log("Its confirmed");
+ele.style.color = "green";
+ele.innerHTML = "its confirmed";
+}
+else{
+console.log("Its cancelled");
+ele.style.color = "Maroon";
+ele.innerHTML = "its cancelled";
+}
+}
+
+
+function promptBox(){
+var ele = document.getElementById('ConfirmMessage');
+var person = window.prompt("Hi user", "Welcome", "Enter your name ");
+console.log(person);
+ele.style.color = "lightgreen";
+ele.innerHTML = "Dear "+person+" Welcome to our portal";
+}
+
+
+</script>
+
+<button onclick= "alertBox()">Alert!!!</button>
+<button onclick= "confirmBox()"> Confirm!!!</button>
+<button onclick= "promptBox()"> Prompt!!!</button>
+<h3 id = "confirmMessage"></h3>
+</body>
+</html>
+

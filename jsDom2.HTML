@@ -1,0 +1,83 @@
+<html>
+<head> </head>
+<body>
+<h1>Dear student, welcome to js.</h1>
+<div id= "line2"><h1>i will change</h1></div>
+
+<h2>Change background color by clicking below the button.</h2>
+<button onclick = "redBg()"> RED </button>
+<button onclick = "yellowBg()"> YELLOW </button>
+<button onclick = "greenBg()"> GREEN </button>
+<button onclick = "blueBg()"> BLUE </button>
+<button onclick = "pinkBg()"> PINK</button>
+<button onclick = "brownBg()"> Brown </button>
+
+<h2>Change text color by clicking bellow the button.</h2>
+<button onclick = "redText()"> RED </button>
+<button onclick = "yellowText()"> YELLOW </button>
+<button onclick = "greenText()"> GREEN </button>
+<button onclick = "blueText()"> BLUE </button>
+<button onclick = "pinkText()"> PINK</button>
+<button onclick = "brownText()"> BROWN </button>
+
+<!-- Event ==> Function ==> Action-->
+
+<script> 
+
+function redBg(){
+//1 select ele
+var ele = document.body;
+//2 apply changes
+ele.style.backgroundColor = "red";
+}
+
+function yellowBg(){
+var ele = document.body;
+ele.style.backgroundColor = "yellow";
+}
+
+function greenBg(){
+var ele = document.body;
+ele.style.backgroundColor = "Green";
+}
+function blueBg(){
+var ele = document.body;
+ele.style.backgroundColor = "Blue";
+}
+
+function pinkBg(){
+var ele = document.body;
+ele.style.backgroundColor = "PINK";
+}
+
+function brownBg(){
+var ele = document.body;
+ele.style.backgroundColor = "Brown";
+}
+
+function redText(){
+var ele = document.body.style.color ="red";
+}
+
+function yellowText(){
+var ele = document.body.style.color ="yellow";
+}
+
+function pinkText(){
+var ele = document.body.style.color ="pink";
+}
+
+function greenText(){
+var ele = document.body.style.color ="green";
+}
+
+function blueText(){
+var ele = document.body.style.color ="royalblue";
+}
+
+function brownText(){
+var ele = document.body.style.color ="brown";
+}
+</script>
+</body>
+</html>
